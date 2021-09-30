@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="content" content="404_notfound, 404_error">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Page not found!</title>
+
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+      }
+          .containererror{
+            width: 90%;
+          }
+    </style>
+
+</head>
+<body>
+    
+    <div id="containererror" class="jumbotron">
+        <h1 class="display-3">404 Page not Found</h1>
+        <p class="lead">Hey What you are looking for?</p>
+        <hr class="my-4 m-4">
+        <p>Theres Nothing here</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="{%url 'home'%}" role="button">Go to Home</a>
+        </p>
+      </div>
+
+</body>
+</html>

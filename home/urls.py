@@ -12,8 +12,6 @@ urlpatterns =[
     path("api/getbeats/beats",views.BeatsOnlyApiView.as_view(),name="beatsonly"),
     path("api/getbeats/playback",views.PlaybackOnlyApiView.as_view(),name="playbackonly"),
     path("contact/",views.contact,name="contact"),
-    # url(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}), 
-    # url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}), 
 ] 
 
 

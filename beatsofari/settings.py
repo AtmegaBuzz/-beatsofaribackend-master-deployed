@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-5%9a-=0mierq8q&0-b&qtv8r6jp=!z!ezi&#*%s3q=&x*4lvs+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["http://192.168.10.8",'192.168.10.8']
 # ALLOWED_HOSTS = ["beatsofari.herokuapp.com","localhost:8000","*"]
 
 
@@ -63,10 +63,10 @@ MIDDLEWARE = [
 
 
 CORS_HEADERS_ALLOW_ALL = True
-CORS_ORIGIN_WHITELIST = [
-    'https://beatsofarijit.netlify.app',
-    "http://localhost:3000"
-]
+# CORS_ORIGIN_WHITELIST = [
+#     'https://beatsofarijit.netlify.app',
+#     "http://localhost:3000"
+# ]
 
 ROOT_URLCONF = 'beatsofari.urls'
 
@@ -75,7 +75,6 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR,"home/templates"),
-        
         ],
         'APP_DIRS': True,
         'OPTIONS': {

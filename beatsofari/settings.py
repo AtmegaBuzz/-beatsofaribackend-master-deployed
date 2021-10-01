@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-5%9a-=0mierq8q&0-b&qtv8r6jp=!z!ezi&#*%s3q=&x*4lvs+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["http://192.168.10.8",'192.168.10.8']
+ALLOWED_HOSTS = ["https://beatsofarijit.azurewebsites.net",'beatsofarijit.azurewebsites.net','*']
 # ALLOWED_HOSTS = ["beatsofari.herokuapp.com","localhost:8000","*"]
 
 

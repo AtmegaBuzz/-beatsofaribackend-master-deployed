@@ -63,10 +63,10 @@ MIDDLEWARE = [
 
 
 CORS_HEADERS_ALLOW_ALL = True
-# CORS_ORIGIN_WHITELIST = [
-#     'https://beatsofarijit.netlify.app',
-#     "http://localhost:3000"
-# ]
+CORS_ORIGIN_WHITELIST = [
+    'https://beatsofarijit.netlify.app',
+    "http://localhost:3000",
+]
 
 ROOT_URLCONF = 'beatsofari.urls'
 
